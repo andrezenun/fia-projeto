@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "Product",
+  "fields": [
+    {"name": "product_id", "type": ["null","string"], "default": "sem_id"},
+    {"name": "product_category_name", "type": ["null","string"], "default": "sem_categoria"},
+    {"name": "product_name_length", "type": ["null","int"], "default": 0},
+    {"name": "product_description_length", "type": ["null","int"], "default": 0},
+    {"name": "product_photos_qty", "type": ["null","int"], "default": 0},
+    {"name": "product_weight_g", "type": ["null","int"], "default": 0},
+    {"name": "product_length_cm", "type": ["null","int"], "default": 0},
+    {"name": "product_height_cm", "type": ["null","int"], "default": 0},
+    {"name": "product_width_cm", "type": ["null","int"], "default": 0}
+  ]
+}
